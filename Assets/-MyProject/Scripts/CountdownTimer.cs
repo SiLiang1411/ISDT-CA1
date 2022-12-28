@@ -7,7 +7,7 @@ using TMPro;
 public class CountdownTimer : MonoBehaviour
 {
     public float currentTime = 0f;
-    public float startingTime = 100f; //120sec = 2min
+    public float startingTime = 100f; //100sec = 1min40s
 
     [SerializeField] TextMeshProUGUI _countdownText;
     // Start is called before the first frame update
